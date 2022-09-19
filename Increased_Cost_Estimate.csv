@@ -1,0 +1,14 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),EC2 Instances,Amazon EC2,0,5106.58,61278.96,USD,"Operating system (Linux), Quantity (8), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (250 GB), Instance type (m6g.4xlarge), Provisioning IOPS io2 (5000)"
+My Estimate,US East (Ohio),Elastic IPs,Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (10), Number of EIPs per instance (1)"
+My Estimate,US East (Ohio),ALB,Application Load Balancer,0,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),Network LB,Network Load Balancer,0,290.18,3482.16,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (50000 per second)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,8582.28,102987.36,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (4 TB per month), Nodes (2), Instance Type (db.m4.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (25 TB)"
+My Estimate,US East (Ohio),Cloudfront,Amazon CloudFront,0,3017.12,36205.44,USD,"Data transfer out to internet (4 TB per month), Data transfer out to origin (2 TB per month), Number of requests (HTTPS) (1000 per second)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+"The database tier is beefed up and the general monthly storage and backup has been bumped up for more frequent backups, top of the line EC2 instances with more CPU and memory are used including the Provisioned IOPS. Amazon Cloud front has been added to the mix to ensure a very low latency for the user requests.",,,,,,,,

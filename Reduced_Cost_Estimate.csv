@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (Ohio),EC2 Instances,Amazon EC2,0,346.16,4153.92,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (250 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (Ohio),Elastic IPs,Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (10), Number of EIPs per instance (1)"
+My Estimate,US East (Ohio),ALB,Application Load Balancer,0,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (Ohio),Network LB,Network Load Balancer,0,290.18,3482.16,USD,"Number of Network Load Balancers (1), Average number of new TCP connections (50000 per second)"
+My Estimate,US East (Ohio),,Amazon RDS for PostgreSQL,0,2917.36,35008.32,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (3 TB per month), Nodes (2), Instance Type (db.m4.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (10 TB)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+"Reduced the specs(cpu and memory) for the database tier, also the throughput the Application load balancer is reduced  to bring the cost down.",,,,,,,,
