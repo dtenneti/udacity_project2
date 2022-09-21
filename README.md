@@ -30,6 +30,7 @@ S3 standard
 Data transfer
 
 4. Kindly name your instances in order to meet the rubric requirement.
+
 DT Response: The instruction in the videos doesnt show how to name the instances using Terraform, I did my some reasarch myself and didnt find a way to name the instances, the instances are tagged with the name though, I attached the screenshot "Instance_Name_Tags"  showing that.
 
 
